@@ -6,6 +6,7 @@ import './App.css'
 
 // import logo from './assets/facebook.jpg';
 
+// Importando os componentes
 import Header from './components/Header';
 
 function App() {
