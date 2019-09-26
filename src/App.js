@@ -4,8 +4,10 @@ import React from 'react';
 // Importando e aplicando o CSS.
 import './App.css'
 
+import logo from './assets/facebook.jpg';
+
 function App() {
-  return <h1>Hello Facebook</h1>
+  return <img src={logo} alt="Facebook" width="121" />
 }
 
 export default App;
