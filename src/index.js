@@ -1,3 +1,11 @@
-const soma = (a, b) => a + b;
+import React from 'react';
 
-alert(soma(1, 4));
+/**
+ * render - Função responsável pela renderização dos componentes do react 
+ * dentro do conteúdo dos htmls.
+ */
+import { render } from 'react-dom'
+
+import App from './App';
+
+render(<App />, document.getElementById('app'));
