@@ -8,10 +8,16 @@ import './App.css'
 
 // Importando os componentes
 import Header from './components/Header';
+import PostList from './components/PostList';
 
 function App() {
   // return <img src={logo} alt="Facebook" width="121" />
-  return <Header />
+  return (
+    <>
+    <Header />
+    <PostList />
+    </>
+    );
 }
 
 export default App;
